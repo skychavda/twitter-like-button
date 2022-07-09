@@ -4,6 +4,7 @@
 
 ### Demo
 ![demo-counter](./heart.gif)
+
 [Code Sandbox link](https://codesandbox.io/s/twitter-like-button-nj9hn6?file=/src/App.js)
 
 ### Installation
