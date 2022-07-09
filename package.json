@@ -1,6 +1,6 @@
 {
   "name": "twitter-like-button",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "This is the functional twitter like button which you can integrate to your project. To give extra ordinary look",
   "main": "build/index.js",
   "scripts": {
