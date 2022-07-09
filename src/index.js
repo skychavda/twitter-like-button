@@ -3,7 +3,7 @@ import './button.css';
 
 export default function TweeterLikeButton({ isLiked, onClick, width, height }) {
   return (
-    <>
+    <React.Fragment>
       <input type="checkbox" id="checkbox" onChange={e => onClick(e.target.checked)} checked={isLiked}/>
       <label htmlFor="checkbox">
         <svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg" height={height} width={width}>
@@ -48,6 +48,6 @@ export default function TweeterLikeButton({ isLiked, onClick, width, height }) {
           </g>
         </svg>
       </label>
-    </>
+    </React.Fragment>
   )
 }

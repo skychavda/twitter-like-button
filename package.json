@@ -1,18 +1,18 @@
 {
   "name": "twitter-like-button",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is the functional twitter like button which you can integrate to your project. To give extra ordinary look",
   "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/skychavda/twitter-like-button.git"
   },
   "bugs": {
-    "url": "https://github.com/skychavda/number-counter-npm/issues",
-    "email": "chavdaakash123@gmail.com"
+    "url": "https://github.com/skychavda/twitter-like-button/issues"
   },
   "eslintConfig": {
     "extends": [
@@ -33,12 +33,33 @@
   ],
   "author": "Akash Chavda",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/skychavda/twitter-like-button/issues"
-  },
   "homepage": "https://github.com/skychavda/twitter-like-button#readme",
   "dependencies": {
-    "react": "^18.2.0"
+    "@babel/core": "^7.18.6",
+    "react": "^18.2.0",
+    "webpack": "^5.73.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.10.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
